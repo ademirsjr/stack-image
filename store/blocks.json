@@ -1,0 +1,41 @@
+{
+    "store.custom#1": {
+        "children": [
+            "stack-image"
+        ]
+    },
+    "rich-text": {
+        "props": {
+            "text": "Teste Rich Text"
+        }
+    },
+    "stack-image": {
+        "children": [
+            "rich-text",
+            "image"
+        ],
+        "props": {
+            "badges": [
+                {
+                    "description": "lorem-ipson",
+                    "position": {
+                        "x": 0.1,
+                        "y": 0.5
+                    }
+                },
+                {
+                    "description": "lorem-ipson 222222",
+                    "position": {
+                        "x": 0.3,
+                        "y": 1.0
+                    }
+                }
+            ]
+        }
+    },
+    "image": {
+        "props": {
+            "src": "https://www.nissan-cdn.net/content/dam/Nissan/br/intelligent_mobility/Int%20Mobility.jpg.ximg.l_8_m.smart.jpg"
+        }
+    }
+}
